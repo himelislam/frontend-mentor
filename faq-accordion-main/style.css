@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('/faq-accordion-main/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'MyFont2';
+    src: url('/faq-accordion-main/assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype'),
+}
+
 body{
     margin: 0px;
 }
@@ -8,15 +18,33 @@ body{
     color: black;
     display: flex;
     justify-content: center;
+    font-family: 'MyFont', sans-serif;
 }
 .main{
-    width: 200px;
+    width: 30vw;
     margin: auto;
     background-color: white;
     padding: 30px;
     border-radius: 30px;
 }
 
+.header{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
 .header h1{
-    margin: 0;
+    display: inline;
+    font-family: 'MyFont2', sans-serif;
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 48px;
+}
+
+.accordion-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    cursor: pointer;
 }
