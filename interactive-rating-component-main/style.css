@@ -59,11 +59,6 @@ body {
     color: white;
     cursor: pointer;
 }
-.focused{
-    background-color: coral;
-    pointer-events: none;
-}
-
 .button:hover{
     background-color: rgb(129, 129, 129);
 }

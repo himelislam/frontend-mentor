@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .iframe {
+       
+        height: 300px !important;
+        width: 100% !important; 
+    }
+}
+
+/* Media query for smartphones and smaller screens */
+@media (max-width: 480px) {
+    .iframe {
+        height: 300px
+    }
+}
+
+
+
+
+.iframe{
+    height: 100vh !important;
+    width: 100% !important;
+}
+@media (max-width: 768px) {
+.iframe {
+
+height: 200px !important;
+width: 100% !important; 
+}
+}
+
+@media (max-width: 480px) {
+.iframe {
+height: 200px
+}
+}
+
+
